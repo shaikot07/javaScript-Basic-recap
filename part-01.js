@@ -75,4 +75,4 @@ function myFunction(a, n) {
             return "Invalid index";
       }
 }
-console.log(myFunction('zyxbwpl', 4));
+console.log(myFunction('amar valobasda', 4));
