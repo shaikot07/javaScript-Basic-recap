@@ -51,3 +51,5 @@ function canPay(changeArray, totalDue) {
         return false
       }
     }
+const array = [2,3,4,6,7,];
+console.log( canPay(array));
