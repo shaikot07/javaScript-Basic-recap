@@ -54,11 +54,25 @@ function canPay(changeArray, totalDue) {
 const array = [2, 3, 4, 6, 7,];
 console.log(canPay(array));
 
-// Write a function that takes an object with two properties as argument
+//03 Write a function that takes an object with two properties as argument
 // It should return the value of the property with key country
 function myFunction(obj) {
-      const result =obj.country;
+      const result = obj.country;
       return result
 }
 
 console.log(myFunction({ continent: 'Asia', country: 'Japan' }));
+
+//04 Write a function that takes a string (a) and a number (n) as argument
+// Return the nth character of 'a'
+function myFunction(a, n) {
+      if (n >= 0 && n < a.length) {
+           
+            return a.charAt(n);
+      }
+      else {
+           
+            return "Invalid index";
+      }
+}
+console.log(myFunction('zyxbwpl', 4));
