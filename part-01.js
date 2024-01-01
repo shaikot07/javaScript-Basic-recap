@@ -21,3 +21,17 @@ const address = {
 
 
 console.log(findAddress(address));    
+
+// problem number 02 
+
+function cubeNumber(number) {
+      if (typeof number !== "number") {
+        return "Invalid input";
+      }
+      else{
+        return number * number * number;
+      }
+      
+    }
+
+console.log(cubeNumber(3));
