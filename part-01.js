@@ -35,3 +35,19 @@ function cubeNumber(number) {
     }
 
 console.log(cubeNumber(3));
+
+function canPay(changeArray, totalDue) {
+      if(changeArray.length ==0){
+        return 'invalid array'
+      }
+      let totalChange = 0;
+      for(let i =0;i<changeArray.length;i++){
+        totalChange += changeArray[i];
+         
+        }
+      if(totalChange >= totalDue){
+        return true
+      }else{
+        return false
+      }
+    }
