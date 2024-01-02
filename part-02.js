@@ -88,3 +88,15 @@ function myFunction ( a) {
 }
 
 console.log(myFunction('a'));
+
+function myFunction(a, n) {
+      if (n >= 0 && n < a.length) {
+           
+            return a.charAt(n);
+      }
+      else {
+           
+            return "Invalid index";
+      }
+}
+console.log(myFunction('amar valobasda', 4));
