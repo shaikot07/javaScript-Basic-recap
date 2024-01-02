@@ -36,7 +36,7 @@ for (let i = start; i <= end; i++) {
       }
 }
 
-console.log(i);
+
 
 const numbers = [10, 15, 20, 30];
 /* Iterate over this array and find the total sum. */
@@ -80,7 +80,11 @@ for (let i = 0; i < height.length; i++) {
 // Write a function that takes a string as argument
 // Create an object that has a property with key 'key' and a value equal to the string
 // Return the object
-function myFunction (a) {
-
-      return
+function myFunction ( a) {
+      const resultObject = {
+            key: a
+      };
+      return resultObject;
 }
+
+console.log(myFunction('a'));
