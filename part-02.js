@@ -36,6 +36,8 @@ for(let i= start; i <= end; i++){
     }
 }
 
+console.log(i);
+
 const numbers = [10, 15, 20, 30];
 /* Iterate over this array and find the total sum. */
 
