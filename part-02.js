@@ -13,3 +13,14 @@ B = 15;
 C = 20;
 
 console.log(C + B + A);
+
+/* Write the JS Code to print all even numbers between start and end.*/ 
+const start = 10;
+const end = 20;
+
+
+for(let i= start; i <= end; i++){
+    if(i % 2 === 0){
+        console.log(i)
+    }
+}
