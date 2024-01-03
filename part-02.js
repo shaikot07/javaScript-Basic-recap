@@ -89,6 +89,9 @@ function myFunction ( a) {
 
 console.log(myFunction('a'));
 
+//Write a function that takes a string (a) and a number (n) as argument
+// Return the nth character of 'a'
+
 function myFunction(a, n) {
       if (n >= 0 && n < a.length) {
            
