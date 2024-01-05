@@ -47,3 +47,12 @@ function isPrime(num) {
     console.log(isPrime(7))
     console.log(isPrime(14))
     console.log(isPrime(54))
+
+
+//     Problem: Capitalize Words
+    function capitalizeWords(sentence) {
+      return sentence.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+    }
+    
+   
+    
