@@ -43,6 +43,7 @@ function isPrime(num) {
       return true;
     }
     
-    // Example usage:
+   
     console.log(isPrime(7))
     console.log(isPrime(14))
+    console.log(isPrime(54))
