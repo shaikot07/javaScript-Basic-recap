@@ -55,4 +55,6 @@ function isPrime(num) {
     }
     
    
-    
+    const sentence = 'this is a sample sentence';
+    const capitalizedSentence = capitalizeWords(sentence);
+    console.log(capitalizedSentence); 
