@@ -17,3 +17,16 @@ function findLargestNumber(arr) {
     const numbers = [2, 8, 1, 5, 9];
     const largestNumber = findLargestNumber(numbers);
     console.log(largestNumber);
+
+//     Problem: Calculate Factorial
+
+function calculateFactorial(num) {
+      if (num === 0 || num === 1) {
+        return 1;
+      } else {
+        return num * calculateFactorial(num - 1);
+      }
+    }
+    
+    const factorialOf5 = calculateFactorial(5);
+    console.log(factorialOf5); 
