@@ -66,4 +66,6 @@ function findSecondLargest(arr) {
       return sortedArr[1];
     }
     
-  
+    const numbersArray = [5, 2, 9, 8, 7];
+    const secondLargest = findSecondLargest(numbersArray);
+    console.log(secondLargest);
