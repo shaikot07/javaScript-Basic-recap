@@ -58,3 +58,12 @@ function isPrime(num) {
     const sentence = 'this is a sample sentence';
     const capitalizedSentence = capitalizeWords(sentence);
     console.log(capitalizedSentence); 
+
+
+//     Problem: Find the Second Largest Number
+function findSecondLargest(arr) {
+      const sortedArr = arr.sort((a, b) => b - a);
+      return sortedArr[1];
+    }
+    
+  
