@@ -69,3 +69,6 @@ function findSecondLargest(arr) {
     const numbersArray = [5, 2, 9, 8, 7];
     const secondLargest = findSecondLargest(numbersArray);
     console.log(secondLargest);
+
+
+    <marquee behavior="scroll" direction="left">এই টেক্সট চলছে!</marquee>
