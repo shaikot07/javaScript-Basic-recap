@@ -14,3 +14,13 @@ const textOne = 'Hello';
 const textTwo = 'World';
 const combined = textOne + ' ' + textTwo;
 console.log(combined);
+
+// Problem: Given a string, write a function to reverse it.
+
+function reverseString(str) {
+      return str.split('').reverse().join('');
+    }
+    
+    // test case for this problem
+    const reversed = reverseString('Hello');
+    console.log(reversed); 
