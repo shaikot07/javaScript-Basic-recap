@@ -51,5 +51,5 @@ function reverseString(str) {
     }
 //     Problem 4: Capitalize the First Letter
     // Example usage:
-    const capitalizedSentence = capitalizeWords('hello world');
+    const capitalizedSentence = capitalizeWords('asha amar valo basa');
     console.log(capitalizedSentence);
