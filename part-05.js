@@ -32,7 +32,7 @@ function reverseString(str) {
       return str.split('').filter(char => vowels.includes(char)).length;
     }
     
-    // Example usage:
+
     const vowelCount = countVowel('Hello World');
     console.log(vowelCount); 
 
@@ -41,8 +41,7 @@ function reverseString(str) {
       const reversed = str.split('').reverse().join('');
       return str === reversed;
     }
-    
-    // Example usage:
+ 
     const isPalindromic = isPalindrome('level');
     console.log(isPalindromic);
 
@@ -50,10 +49,16 @@ function reverseString(str) {
       return sentence.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
     }
 //     Problem 4: Capitalize the First Letter
-    // Example usage:
+ 
     const capitalizedSentence = capitalizeWords('asha amar valo basa');
     console.log(capitalizedSentence);
 
 
     //  Problem 5: Find the Longest Word
-  
+    function longestWord(sentence) {
+      const words = sentence.split(' ');
+      return words.reduce((longest, current) => (current.length > longest.length ? current : longest), '');
+    }
+    
+    const longest = longestWord('agdum bag dum ghora dum saje');
+    console.log(longest);
