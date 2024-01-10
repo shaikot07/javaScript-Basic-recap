@@ -45,3 +45,11 @@ function reverseString(str) {
     // Example usage:
     const isPalindromic = isPalindrome('level');
     console.log(isPalindromic);
+
+    function capitalizeWords(sentence) {
+      return sentence.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+    }
+//     Problem 4: Capitalize the First Letter
+    // Example usage:
+    const capitalizedSentence = capitalizeWords('hello world');
+    console.log(capitalizedSentence);
