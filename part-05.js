@@ -35,3 +35,13 @@ function reverseString(str) {
     // Example usage:
     const vowelCount = countVowel('Hello World');
     console.log(vowelCount); 
+
+//     Problem 3: Check Palindrome
+    function isPalindrome(str) {
+      const reversed = str.split('').reverse().join('');
+      return str === reversed;
+    }
+    
+    // Example usage:
+    const isPalindromic = isPalindrome('level');
+    console.log(isPalindromic);
