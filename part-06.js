@@ -49,3 +49,6 @@ function findIndex(arr, target) {
       const index = arr.indexOf(target);
       return index !== -1 ? index : 'Element not found';
 }
+
+const fruit = ['apple', 'orange', 'banana', 'kiwi'];
+console.log(findIndex(fruit, 'orange'));
