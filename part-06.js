@@ -34,8 +34,12 @@ function reverseArr(arr) {
 const color = ['red', 'green', 'blue'];
 console.log(reverseArr(color));
 
-// Merge Two Arrays 
+// merge two arrays in one array
 
 function mergeArray(arr1, arr2) {
       return [...arr1, ...arr2];
 }
+
+const arr1 = [1, 2, 3,14,25];
+const arr2 = [4, 5, 6,3,2];
+console.log(mergeArray(arr1, arr2));
