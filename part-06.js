@@ -21,5 +21,12 @@ console.log(result);
 function removeDuplicate(arr) {
       return [...new Set(arr)];
 }
-const fruits = ['apple', 'orange', 'banana', 'apple', 'mango','pineapple','banana'];
+const fruits = ['apple', 'orange', 'banana', 'apple', 'mango', 'pineapple', 'banana'];
 console.log(removeDuplicate(fruits));
+
+
+Problem 4: Reverse Array
+
+function reverseArray(arr) {
+      return arr.reverse();
+}
