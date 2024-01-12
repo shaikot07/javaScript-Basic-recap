@@ -52,3 +52,9 @@ function findIndex(arr, target) {
 
 const fruit = ['apple', 'orange', 'banana', 'kiwi'];
 console.log(findIndex(fruit, 'orange'));
+
+// find common elements
+
+function findCommonElements(arr1, arr2) {
+      return arr1.filter(element => arr2.includes(element));
+}
