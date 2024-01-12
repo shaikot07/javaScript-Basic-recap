@@ -40,6 +40,12 @@ function mergeArray(arr1, arr2) {
       return [...arr1, ...arr2];
 }
 
-const arr1 = [1, 2, 3,14,25];
-const arr2 = [4, 5, 6,3,2];
+const arr1 = [1, 2, 3, 14, 25];
+const arr2 = [4, 5, 6, 3, 2];
 console.log(mergeArray(arr1, arr2));
+
+// Find Index of Element
+function findIndex(arr, target) {
+      const index = arr.indexOf(target);
+      return index !== -1 ? index : 'Element not found';
+}
