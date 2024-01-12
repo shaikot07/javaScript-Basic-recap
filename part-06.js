@@ -21,3 +21,5 @@ console.log(result);
 function removeDuplicates(arr) {
       return [...new Set(arr)];
 }
+const fruits = ['apple', 'orange', 'banana', 'apple', 'mango','pineapple','banana'];
+console.log(removeDuplicates(fruits));
