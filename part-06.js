@@ -25,8 +25,11 @@ const fruits = ['apple', 'orange', 'banana', 'apple', 'mango', 'pineapple', 'ban
 console.log(removeDuplicate(fruits));
 
 
-Problem 4: Reverse Array
+// Problem 4: Reverse Array
 
-function reverseArray(arr) {
+function reverseArr(arr) {
       return arr.reverse();
 }
+
+const color = ['red', 'green', 'blue'];
+console.log(reverseArr(color));
