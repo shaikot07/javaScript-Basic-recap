@@ -18,8 +18,8 @@ const result = findMax(number)
 console.log(result);
 
 //     Problem 3: Remove Duplicates
-function removeDuplicates(arr) {
+function removeDuplicate(arr) {
       return [...new Set(arr)];
 }
 const fruits = ['apple', 'orange', 'banana', 'apple', 'mango','pineapple','banana'];
-console.log(removeDuplicates(fruits));
+console.log(removeDuplicate(fruits));
