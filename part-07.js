@@ -80,4 +80,13 @@ function power_of_2(n) {
       return n && (n & (n - 1)) === 0;
 }
 
-console.log(power_of_2(16));
+// console.log(power_of_2(16));
+
+// calculate the percentage (%) of a number.
+
+function claculatePercentage(num, per)
+{
+  return (num/100)*per;
+}
+          
+console.log(claculatePercentage(1000, 47.12));
