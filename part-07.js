@@ -54,4 +54,18 @@ function findMax(arr) {
       
     }
  const arr=[2,3,4,6,8,9,12,15,26];
- console.log(findMax(arr));
+//  console.log(findMax(arr));
+
+// 4 find the lowest value in an array.
+
+function findMin(arr) {
+      if (!Array.isArray(arr)) {
+        return false; 
+      }
+    
+      if (arr.length === 0) {
+        return undefined; 
+      }
+    
+      return Math.min(...arr);
+    }
