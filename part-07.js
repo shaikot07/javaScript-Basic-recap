@@ -51,8 +51,7 @@ function findMax(arr) {
       }
     
       return maxNumber;
-      // console.log("Max Number:", maxNumber);
-      // console.log("Index of Max Number:", maxIndex);
+      
     }
- const arr=[2,3,4,6,8,9,12];
+ const arr=[2,3,4,6,8,9,12,15,26];
  console.log(findMax(arr));
