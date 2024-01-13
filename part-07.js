@@ -10,3 +10,4 @@ let base_convert = function(number, initial_base, change_base) {
    
    console.log(base_convert('E164',19,6));
    console.log(base_convert(1000,2,8));
+   console.log(base_convert(1546,45,7));
