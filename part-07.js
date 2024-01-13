@@ -84,9 +84,17 @@ function power_of_2(n) {
 
 // calculate the percentage (%) of a number.
 
-function claculatePercentage(num, per)
+function calculatePercentage(num, per)
 {
   return (num/100)*per;
 }
           
-console.log(claculatePercentage(1000, 47.12));
+console.log(calculatePercentage(1000, 47.12));
+
+var is_array = function(input) {
+      if (toString.call(input) === "[object Array]")
+        return true;
+      return false;   
+        };
+    console.log(is_array('w3resource'));
+    console.log(is_array([1, 2, 4, 0]));
