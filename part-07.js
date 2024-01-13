@@ -1,5 +1,5 @@
 // es6 problem and slution
-// Convert a number from one base to another
+// 1 Convert a number from one base to another
 
 let base_convert = function(number, initial_base, change_base) {
       if ((initial_base && change_base) <2 || (initial_base && change_base)>36)
@@ -12,7 +12,7 @@ let base_convert = function(number, initial_base, change_base) {
 //    console.log(base_convert(1000,2,8));
 //    console.log(base_convert(1546,45,7));
 
-//    JavaScript function to generate a random integer.
+// 2   JavaScript function to generate a random integer number.
 
 let rand = function(min, max) {
       if (min==null && max==null)
@@ -24,7 +24,35 @@ let rand = function(min, max) {
         }
         return min + Math.floor(Math.random() * (max - min + 1));
       };
-     console.log(rand(20,1));
-     console.log(rand(1,10));
-     console.log(rand(6));
-     console.log(rand());
+//      console.log(rand(20,1));
+//      console.log(rand(1,10));
+//      console.log(rand(6));
+//      console.log(rand());
+
+//3. function to find the highest value in an array.
+
+function findMax(arr) {
+      if (!Array.isArray(arr)) {
+        return false; //  check it array ki na
+      }
+    
+      if (arr.length === 0) {
+        return undefined; // array ar length check kore dekhbe 
+      }
+    
+      let maxNumber = arr[0]; 
+      let maxIndex = 0;
+    
+      for (let i = 1; i < arr.length; i++) {
+        if (arr[i] > maxNumber) {
+          maxNumber = arr[i]; 
+          maxIndex = i;
+        }
+      }
+    
+      return maxNumber;
+      // console.log("Max Number:", maxNumber);
+      // console.log("Index of Max Number:", maxIndex);
+    }
+ const arr=[2,3,4,6,8,9,12];
+ console.log(findMax(arr));
