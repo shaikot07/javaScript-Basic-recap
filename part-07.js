@@ -73,3 +73,11 @@ const minArray = [3, 6, 5, 2, 4, -2]
 console.log(findMin(minArray));
 
 //     test if a number is a power of 2.
+function power_of_2(n) {
+      if (typeof n !== 'number')
+            return 'Not a number';
+
+      return n && (n & (n - 1)) === 0;
+}
+
+console.log(power_of_2(16));
