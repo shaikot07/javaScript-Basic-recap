@@ -52,5 +52,24 @@ if ((x === 5 || y > 3 || z <= 10) && (loggedIn || userName === "Steve")) {
 
 // another problem 
 if (x === 5 || x === 7 || x === 10 || x === 20) {
-     
+
+}
+
+
+// switch statements
+
+switch (expression) {
+      case choice1:
+            // run this code
+            break;
+
+      case choice2:
+            // run this code instead
+            break;
+
+      // include as many cases as you like
+
+      default:
+            // actually, just run this code
+            break;
 }
