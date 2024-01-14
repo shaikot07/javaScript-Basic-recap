@@ -44,3 +44,8 @@ if (!(iceCreamVanOutside || houseStatus === "on fire")) {
 } else {
       console.log("You should leave the house quickly.");
 }
+
+// another problem use both && ,||
+if ((x === 5 || y > 3 || z <= 10) && (loggedIn || userName === "Steve")) {
+      // run the code
+    }
