@@ -30,3 +30,8 @@ if (cheese) {
 } else {
       console.log("No agdum bugdum");
 }
+
+// use || or operator 
+if (iceCreamVanOutside || houseStatus === "on fire") {
+      console.log("You should leave the house quickly.");
+} 
