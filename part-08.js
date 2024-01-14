@@ -48,4 +48,9 @@ if (!(iceCreamVanOutside || houseStatus === "on fire")) {
 // another problem use both && ,||
 if ((x === 5 || y > 3 || z <= 10) && (loggedIn || userName === "Steve")) {
       // run the code
-    }
+}
+
+// another problem 
+if (x === 5 || x === 7 || x === 10 || x === 20) {
+     
+}
