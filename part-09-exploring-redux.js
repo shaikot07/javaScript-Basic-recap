@@ -17,3 +17,8 @@ const incrementCounter =()=>{
             type: INCREMENT,
       };
 };
+const decrementCounter =()=>{
+      return {
+            type: DECREMENT,
+      };
+};
