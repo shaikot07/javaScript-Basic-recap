@@ -1,4 +1,4 @@
-const {createStor}= require("redux")
+const {createStore}= require("redux")
 
 // defining constants 
 
