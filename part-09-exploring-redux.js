@@ -22,3 +22,10 @@ const decrementCounter =()=>{
             type: DECREMENT,
       };
 };
+
+const addUser =()=>{
+      return {
+            type: ADD_USER,
+            payload:{name:"shaikat"},
+      }
+}
