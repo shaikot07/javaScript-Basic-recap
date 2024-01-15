@@ -29,3 +29,8 @@ const addUser =()=>{
             payload:{name:"shaikat"},
       }
 }
+// stape of redux 
+// 1. state 
+// 2.dispatch action 
+// 3. reducer 
+// 4.store
