@@ -43,7 +43,27 @@ function moveZeroesToEnd(arr) {
       return arr;
   }
   
-  // Example usage:
+
   const testArray = [0, 5, 0, 3, 8, 0, 10];
   const resultArray = moveZeroesToEnd(testArray);
   console.log("Array after moving zeroes to the end:", resultArray);
+
+  
+// Rearrange array such that even positioned are greater than odd
+// ai problem ar solution ta chat gpt diye kora 
+
+function rearrangeEvenGreater(arr) {
+      for (let i = 0; i < arr.length - 1; i += 2) {
+          if (i < arr.length - 1 && arr[i] > arr[i + 1]) {
+              // Swap elements at odd position (i) and even position (i + 1)
+              [arr[i], arr[i + 1]] = [arr[i + 1], arr[i]];
+          }
+  
+          if (i > 0 && arr[i - 1] > arr[i]) {
+              // Swap elements at odd position (i) and even position (i - 1)
+              [arr[i], arr[i - 1]] = [arr[i - 1], arr[i]];
+          }
+      }
+  
+      return arr;
+  }
