@@ -96,5 +96,5 @@ var is_array = function(input) {
         return true;
       return false;   
         };
-    console.log(is_array('w3resource'));
+    console.log(is_array('resource'));
     console.log(is_array([1, 2, 4, 0]));
