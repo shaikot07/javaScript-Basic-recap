@@ -42,3 +42,18 @@ function findCommonElement(arr1, arr2) {
 const array1 = [1, 2, 3, 4, 5];
 const array2 = [3, 4, 5, 6, 7];
 console.log(findCommonElement(array1, array2))
+
+// Find Second largest element in an array
+
+
+function findSecondLargest(arr) {
+      if (arr.length < 2) {
+          return "Array should have at least two elements";
+      }
+  
+      let firstLargest = Math.max(arr[0], arr[1]);
+      let secondLargest = Math.min(arr[0], arr[1]);
+  
+     
+  }
+  
