@@ -32,3 +32,13 @@ function moveZeroesToEnd(arr) {
         };
     console.log(is_array('resource'));
     console.log(is_array([1, 2, 4, 0]));
+
+
+// find common elements
+
+function findCommonElement(arr1, arr2) {
+      return arr1.filter(element => arr2.includes(element));
+}
+const array1 = [1, 2, 3, 4, 5];
+const array2 = [3, 4, 5, 6, 7];
+console.log(findCommonElement(array1, array2))
