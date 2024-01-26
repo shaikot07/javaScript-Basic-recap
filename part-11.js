@@ -74,4 +74,5 @@ function findSecondLargest(arr) {
       return words.reduce((longest, current) => (current.length > longest.length ? current : longest), '');
     }
     
- 
+    const longest = longestWord('agdum bag dum ghora dum saje');
+    console.log(longest);
