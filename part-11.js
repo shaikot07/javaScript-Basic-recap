@@ -66,3 +66,12 @@ function findSecondLargest(arr) {
       return secondLargest;
   }
   
+
+
+  //  Problem 5: Find the Longest Word
+  function longestWord(sentence) {
+      const words = sentence.split(' ');
+      return words.reduce((longest, current) => (current.length > longest.length ? current : longest), '');
+    }
+    
+ 
