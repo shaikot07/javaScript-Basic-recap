@@ -11,7 +11,14 @@ function tomCount() {
 
 //  explnation about  hoisting 
 var x;
-console.log(x); 
+// console.log(x); 
 
 x = 5;
-console.log(x); 
+// console.log(x); 
+
+
+console.log(myFunction()); 
+
+function myFunction() {
+    return "Hello, world!";
+}
