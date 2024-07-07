@@ -64,3 +64,14 @@ function factorial(n) {
 
 // Example usage
 // console.log(factorial(5)); 
+
+// test case 03
+function fibonacci(n) {
+    // Base cases
+    if (n === 0) {
+        return 0;
+    
+}
+
+// Example usage
+console.log(fibonacci(5));
