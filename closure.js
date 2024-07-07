@@ -5,6 +5,13 @@ function tomCount() {
     return tom; 
 }
 
-console.log(tomCount()); 
-console.log(tomCount()); 
-console.log(tomCount()); 
+// console.log(tomCount()); 
+// console.log(tomCount()); 
+// console.log(tomCount()); 
+
+//  explnation about  hoisting 
+var x;
+console.log(x); 
+
+x = 5;
+console.log(x); 
