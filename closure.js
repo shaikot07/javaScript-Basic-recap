@@ -25,11 +25,28 @@ function myFunction() {
 
 
 var myFunc;
-// console.log(myFunc); 
+// console.log(myFunc); // Output: undefined
 // console.log(myFunc()); // TypeError: myFunc is not a function
 
 myFunc = function() {
     return "Hello, world!";
 };
 
-console.log(myFunc()); 
+// console.log(myFunc()); 
+
+
+function greet(name, callback) {
+    console.log("Hello, " + name + "!");
+    callback();
+}
+
+// callback functing 
+
+function sayGoodbye() {
+    console.log("Goodbye!");
+}
+
+// Example usage
+greet("Alice", sayGoodbye);
+
+// console.log(greet);
