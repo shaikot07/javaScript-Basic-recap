@@ -17,8 +17,19 @@ x = 5;
 // console.log(x); 
 
 
-console.log(myFunction()); 
+// console.log(myFunction()); 
 
 function myFunction() {
     return "Hello, world!";
 }
+
+
+var myFunc;
+// console.log(myFunc); 
+// console.log(myFunc()); // TypeError: myFunc is not a function
+
+myFunc = function() {
+    return "Hello, world!";
+};
+
+console.log(myFunc()); 
