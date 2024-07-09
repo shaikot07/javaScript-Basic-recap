@@ -78,4 +78,17 @@ function fibonacci(n) {
 }
 
 // Example usage
-console.log(fibonacci(5));
+// console.log(fibonacci(5));
+
+
+// conditional : write a function that check if a number is even or odd;
+
+function checkEvenOrOdd (num) {
+    if(num %2 ==0){
+        return 'Even'
+    }else{
+        return 'Odd'
+    }
+}
+
+console.log(checkEvenOrOdd(3));
